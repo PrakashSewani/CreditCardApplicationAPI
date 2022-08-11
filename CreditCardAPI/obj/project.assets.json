@@ -491,19 +491,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PrakashS\\.nuget\\packages\\": {}
+    "C:\\Users\\praka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PrakashS\\Desktop\\CreditCardAPI\\CreditCardAPI\\CreditCardAPI.csproj",
+      "projectUniqueName": "D:\\CreditCardApplicationAPI\\CreditCardAPI\\CreditCardAPI.csproj",
       "projectName": "CreditCardAPI",
-      "projectPath": "C:\\Users\\PrakashS\\Desktop\\CreditCardAPI\\CreditCardAPI\\CreditCardAPI.csproj",
-      "packagesPath": "C:\\Users\\PrakashS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PrakashS\\Desktop\\CreditCardAPI\\CreditCardAPI\\obj\\",
+      "projectPath": "D:\\CreditCardApplicationAPI\\CreditCardAPI\\CreditCardAPI.csproj",
+      "packagesPath": "C:\\Users\\praka\\.nuget\\packages\\",
+      "outputPath": "D:\\CreditCardApplicationAPI\\CreditCardAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PrakashS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\praka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -517,8 +517,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\PrakashS\\Desktop\\CreditCardAPI\\CreditCardBL\\CreditCardBL.csproj": {
-              "projectPath": "C:\\Users\\PrakashS\\Desktop\\CreditCardAPI\\CreditCardBL\\CreditCardBL.csproj"
+            "D:\\CreditCardApplicationAPI\\CreditCardBL\\CreditCardBL.csproj": {
+              "projectPath": "D:\\CreditCardApplicationAPI\\CreditCardBL\\CreditCardBL.csproj"
             }
           }
         }

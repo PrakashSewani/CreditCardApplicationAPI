@@ -44,8 +44,10 @@ namespace CreditCardAPI
             }
 
             app.UseHttpsRedirection();
-            app.UseCors("CorsPolicy");
+
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 
