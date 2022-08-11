@@ -11,3 +11,16 @@ C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardBL\obj\Debug\netcoreapp3.1\Cre
 C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.csproj.CopyComplete
 C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.dll
 C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.pdb
+D:\CreditCardApplicationAPI\CreditCardBL\bin\Debug\netcoreapp3.1\CreditCardBL.deps.json
+D:\CreditCardApplicationAPI\CreditCardBL\bin\Debug\netcoreapp3.1\CreditCardBL.dll
+D:\CreditCardApplicationAPI\CreditCardBL\bin\Debug\netcoreapp3.1\CreditCardBL.pdb
+D:\CreditCardApplicationAPI\CreditCardBL\bin\Debug\netcoreapp3.1\CreditCardCore.dll
+D:\CreditCardApplicationAPI\CreditCardBL\bin\Debug\netcoreapp3.1\CreditCardCore.pdb
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.csproj.AssemblyReference.cache
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.AssemblyInfoInputs.cache
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.AssemblyInfo.cs
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.csproj.CoreCompileInputs.cache
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.csproj.CopyComplete
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.dll
+D:\CreditCardApplicationAPI\CreditCardBL\obj\Debug\netcoreapp3.1\CreditCardBL.pdb
