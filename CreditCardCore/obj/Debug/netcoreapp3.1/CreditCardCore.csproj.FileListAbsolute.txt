@@ -1,0 +1,10 @@
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\bin\Debug\netcoreapp3.1\CreditCardCore.deps.json
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\bin\Debug\netcoreapp3.1\CreditCardCore.dll
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\bin\Debug\netcoreapp3.1\CreditCardCore.pdb
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.csproj.AssemblyReference.cache
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.AssemblyInfoInputs.cache
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.AssemblyInfo.cs
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.csproj.CoreCompileInputs.cache
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.dll
+C:\Users\PrakashS\Desktop\CreditCardAPI\CreditCardCore\obj\Debug\netcoreapp3.1\CreditCardCore.pdb
