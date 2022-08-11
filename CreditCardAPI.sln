@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardAPI", "CreditCardAPI\CreditCardAPI.csproj", "{01F315F7-E41F-475F-A6C3-F35815039A65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardAPI", "CreditCardAPI\CreditCardAPI.csproj", "{01F315F7-E41F-475F-A6C3-F35815039A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardBL", "CreditCardBL\CreditCardBL.csproj", "{DE103C50-8D62-40EB-9CE5-17F6F152D28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardBL", "CreditCardBL\CreditCardBL.csproj", "{DE103C50-8D62-40EB-9CE5-17F6F152D28D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardCore", "CreditCardCore\CreditCardCore.csproj", "{43903AD1-69BA-41B3-A9D6-85B285D2EC91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardCore", "CreditCardCore\CreditCardCore.csproj", "{43903AD1-69BA-41B3-A9D6-85B285D2EC91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E2EB160-CCD5-4A8E-A2B9-AF455A0428F3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
