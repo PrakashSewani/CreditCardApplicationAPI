@@ -9,6 +9,22 @@ namespace CreditCardBL
 {
     public class CreditInputs : ICreditInputs
     {
+        public ArrayList GetAllData()
+        {
+            ArrayList allData = new ArrayList();
+            try
+            {
+                DBInteractionClass dBInteractionClass = new DBInteractionClass();
+                allData = dBInteractionClass.GetAllDataForGraph();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return allData;
+        }
+
         public string GetLastAvailableLimit()
         {
             string LastAvailableLimit;

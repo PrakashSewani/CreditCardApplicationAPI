@@ -2,13 +2,9 @@
 using CreditCardBL;
 using CreditCardBL.CreditCardBL;
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CreditCardAPI.Controllers
 {
@@ -68,6 +64,23 @@ namespace CreditCardAPI.Controllers
                 ICreditInputs fetchLastLimit = new CreditInputs();
                 limits = fetchLastLimit.GetLastAvailableLimit();
                 return limits;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        [HttpGet("FetchDataForGraph")]
+        public ArrayList FetchDataForGraph()
+        {
+            ArrayList data= new ArrayList();
+            try
+            {
+                ICreditInputs allData = new CreditInputs();
+                data = allData.GetAllData();
+                return data;
             }
             catch (Exception)
             {

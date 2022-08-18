@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
+using System.Reflection;
 
 namespace CreditCardCore
 {
@@ -93,6 +95,56 @@ namespace CreditCardCore
             {
                 Console.WriteLine(e);
             }
+            finally
+            {
+                con.Close();
+            }
+            return null;
+        }
+
+        public ArrayList GetAllDataForGraph()
+        {
+            SqlConnection con = null;
+            ArrayList graphTable = new ArrayList();
+            try
+            {
+                con = new SqlConnection("data source=DESKTOP-MSPVFKM\\SQLEXPRESS;database=CreditCardExpense; integrated security=SSPI");
+                SqlCommand cmd = new SqlCommand("GetDataForGraph", con)
+                {
+                    CommandType=CommandType.StoredProcedure
+                };
+                con.Open();
+                SqlDataReader dataReader = cmd.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    string[] fields = new string[dataReader.FieldCount];
+                    for (int i = 0; i < dataReader.FieldCount; ++i)
+                    {
+                        if (i == 0)
+                        {
+                            fields[i] = (dataReader[i].ToString()).Substring(0, 10);
+                        }
+                        else
+                        {
+                            fields[i] = dataReader[i].ToString();
+                        }
+                    }
+                    graphTable.Add(fields);
+                }
+                dataReader.Close();
+
+                foreach (var value in graphTable)
+                {
+                    Console.WriteLine(string.Join(",",value.ToString()));
+                }
+
+                return graphTable;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
             finally
             {
                 con.Close();

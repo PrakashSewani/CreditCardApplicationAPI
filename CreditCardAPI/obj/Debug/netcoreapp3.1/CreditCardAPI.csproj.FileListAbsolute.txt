@@ -55,10 +55,10 @@ D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.csproj.CoreCompileInputs.cache
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\staticwebassets\CreditCardAPI.StaticWebAssets.Manifest.cache
-D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\staticwebassets\CreditCardAPI.StaticWebAssets.xml
-D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\CreditCardAPI.styles.css
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.RazorTargetAssemblyInfo.cache
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.csproj.CopyComplete
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.dll
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.pdb
 D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\CreditCardAPI.genruntimeconfig.cache
+D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\staticwebassets\CreditCardAPI.StaticWebAssets.xml
+D:\CreditCardApplicationAPI\CreditCardAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\CreditCardAPI.styles.css
