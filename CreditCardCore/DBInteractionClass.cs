@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -133,9 +134,23 @@ namespace CreditCardCore
                 }
                 dataReader.Close();
 
-                foreach (var value in graphTable)
+                List<DateTime> dates = new List<DateTime>();
+
+                for (int i = 0; i < graphTable.Count; i++)
                 {
-                    Console.WriteLine(string.Join(",",value.ToString()));
+                    object[] value = (object[])graphTable[i];
+                    //Console.WriteLine(value[0]);
+                    //Console.WriteLine(value[1]);
+                    DateTime temp = Convert.ToDateTime(value[0]);
+                    dates.Add(temp);
+                }
+
+                dates.Sort((x, y) => y.CompareTo(x));
+                dates.Reverse();
+
+                foreach (var date in dates)
+                {
+                    Console.WriteLine(date);
                 }
 
                 return graphTable;
