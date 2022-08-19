@@ -134,26 +134,40 @@ namespace CreditCardCore
                 }
                 dataReader.Close();
 
-                List<DateTime> dates = new List<DateTime>();
+                Dictionary<DateTime, string> graphData = new Dictionary<DateTime, string>();
 
                 for (int i = 0; i < graphTable.Count; i++)
                 {
                     object[] value = (object[])graphTable[i];
-                    //Console.WriteLine(value[0]);
-                    //Console.WriteLine(value[1]);
                     DateTime temp = Convert.ToDateTime(value[0]);
-                    dates.Add(temp);
+                    string str = value[1].ToString();
+                    if (graphData.ContainsKey(temp))
+                    {
+                        graphData[temp] = (Int64.Parse(graphData[temp]) + Int64.Parse(str)).ToString();
+                    }
+                    else
+                    {
+                        graphData.Add(temp, str);
+                    }
                 }
 
-                dates.Sort((x, y) => y.CompareTo(x));
-                dates.Reverse();
-
-                foreach (var date in dates)
+                Dictionary<DateTime, string> sortedDic = new Dictionary<DateTime, string>();
+                foreach(var item in graphData.OrderBy(x => x.Key))
                 {
-                    Console.WriteLine(date);
+                    sortedDic.Add(item.Key, item.Value);
                 }
 
-                return graphTable;
+                ArrayList finalGraphData = new ArrayList();
+                
+                foreach(KeyValuePair<DateTime,string> ele in sortedDic)
+                {
+                    string[] fields = new string[2];
+                    fields[0] = ele.Key.ToString().Substring(0, 10);
+                    fields[1] = ele.Value;
+                    finalGraphData.Add(fields);
+                }
+
+                return finalGraphData;
             }
             catch (Exception e)
             {
